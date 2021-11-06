@@ -1,0 +1,84 @@
+/* CSS PARA MODAL POST */
+.section-modal-post {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-post {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #FFC288;
+}
+
+.show-modal {
+    display: flex;
+}
+
+.modal-post h2 {
+    text-align: center;
+}
+
+.input-post {
+    border: none;
+    width: 100%;
+    height: 100px;
+    outline: 0;
+    margin-top: 10px;
+}
+
+.btn-photo-modal {
+    background: none;
+    border: 1px solid #EAB351;
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    margin-block: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-publish-post {
+    background: #EAB351;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin-block: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-close {
+    position: fixed;
+    text-align: center;
+    line-height: 20px;
+    margin: auto 600px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #EAB351;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    padding-top: 3px;
+}
+
+.btn-close:hover {
+    background: #EAB351;
+}

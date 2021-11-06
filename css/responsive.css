@@ -1,0 +1,260 @@
+/* Media query para desktop */
+@media (min-width: 1600px) and (max-width: 2000px) {
+    .article-login, .article-signup{
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+    }
+
+    .content{
+        width: 100%;
+        margin-left: -120px;
+    }
+
+    .figure-login, .figure-signup{
+        margin: 100px;
+    }
+
+    .img-login, .img-signup {
+        width: 700px;
+        height: 680px;
+    }
+
+    .img-signup {
+        display: block;
+    }
+
+    .img-title {
+        width: 450px;
+        height: 130px;
+        padding: 10px;
+    }
+
+    .span-signup {
+        margin-top: 30px;
+        color: #8C8888;
+        font-size: 35px;
+    }
+
+    .form-login{
+        margin-top: 20px;
+    }
+
+    .form-signup{
+        margin-top: 30px;
+    }
+
+    .login-inputs, .btn-login,
+    .signup-inputs, .btn-signup {
+        font-size: 30px;
+        width: 400px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 30px;
+    }
+
+    .btn-login, .btn-signup {
+        width: 420px;
+    }
+
+    .span-loginWith, .span-account, .a-login-signup{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 35px;
+    }
+
+    .img-google {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Media query para laptop */
+@media (min-width: 1280px) and (max-width: 1599px) {
+    .article-login, .article-signup{
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+    }
+
+    .content{
+        width: 100%;
+        margin-left: -120px;
+    }
+
+    .figure-login, .figure-signup{
+        margin: 100px;
+    }
+
+    .img-login, .img-signup {
+        width: 500px;
+        height: 480px;
+    }
+
+    .img-signup {
+        display: block;
+    }
+
+    .img-title {
+        width: 360px;
+        height:100px;
+        padding: 10px;
+    }
+
+    .span-signup {
+        margin-top: 30px;
+        color: #8C8888;
+        font-size: 30px;
+    }
+
+    .form-login, .form-signup {
+        margin-top: 20px;
+    }
+
+    .login-inputs, .btn-login,
+    .signup-inputs, .btn-signup {
+        font-size: 25px;
+        width: 350px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 30px;
+    }
+
+    .btn-login {
+        width: 370px;
+    }
+
+    .btn-signup {
+        width: 380px;
+    }
+
+    .span-loginWith, .span-account, .a-login-signup{
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 25px;
+    }
+
+    .img-google {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Media query para tablet */
+@media (min-width: 768px) and (max-width: 1279px) {
+    .article-login {
+        min-height: 90vh;
+    }
+
+    .article-signup {
+        min-height: 70vh;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .figure-login {
+        margin: 0;
+    }
+
+    .img-login {
+        width: 350px;
+        height: 320px;
+    }
+
+    .figure-title-signup {
+        margin-top: 100px;
+    }
+
+    .img-title {
+        width: 300px;
+        height:80px;
+    }
+
+    .span-signup {
+        margin-top: 30px;
+        color: #8C8888;
+        font-size: 30px;
+    }
+
+    .form-login{
+        margin-top: 20px;
+    }
+
+    .form-signup{
+        margin-top: 30px;
+    }
+
+    .login-inputs, .btn-login,
+    .signup-inputs, .btn-signup {
+        font-size: 25px;
+        width: 320px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 30px;
+    }
+
+    .signup-inputs, .btn-signup{
+        width: 370px;
+    }
+
+    .btn-login {
+        width: 340px;
+    }
+
+    .btn-signup {
+        width: 390px;
+        margin: 20px auto;
+    }
+
+    .span-loginWith, .span-account, .a-login-signup {
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .img-google {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Barra de navegación */
+@media (max-width: 768px) {
+    .title {
+        padding: 10px 20px;
+        width: 140px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #4A403A;
+        position: fixed;
+        top: 50px;
+        width: 100%;
+        padding: 10px 0 0;
+        left: 100%;
+        transition: left 0.3s;
+        overflow-y: auto;
+    }
+    .nav-menu-item {
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .nav-menu-link {
+        color: #FCECDD;
+    }
+    .nav-menu-link:hover {
+        background: none;
+        color: #FEA82F;
+        transition: 0.3s;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .nav-menu_visibily {
+        left: 0;
+    }
+}

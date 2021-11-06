@@ -1,0 +1,222 @@
+/* Menu para home */
+.header-home {
+    background-color: #FCECDD;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 10px 30px;
+    width: 160px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 17px;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #7F7C82;
+}
+
+.nav-menu-link:hover {
+    background: #FFC288;
+    transition: 0.5s;
+}
+
+.nav-toggle {
+    color: #FEA82F;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Css para perfil de usuario */
+.section-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 50%; */
+    width: 20%;
+    margin: 100px auto auto 60px;
+    /* margin-top: 100px;
+    margin-left: 60px; */
+    padding: 30px;
+    float: left;
+    border: 1px solid rgba(140, 114, 114, 1);
+    box-shadow: 1px 1px 3px 3px rgb(140 114 114);
+    border-radius: 8px;
+}
+
+.photo-profile {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.div-name {
+    margin-top: 5px;
+}
+
+.div-show-profile {
+    margin-top: 5px;
+}
+
+.div-show-profile button {
+    background: #FFC288;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.div-show-profile button:hover {
+    background: #FEA82F;
+}
+
+/* Css para botón de ver modal */
+.section-btn-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto auto 40px;
+    /* margin-top: 100px;
+    margin-left: 40px; */
+    padding: 20px 10px 20px 10px;
+    float: left;
+    border: 1px solid rgba(140, 114, 114, 1);
+    box-shadow: 1px 1px 3px 3px rgb(140 114 114);
+    border-radius: 8px;
+}
+
+.btn-create-post {
+    border: 1px solid #FFC288;
+    border-radius: 30px;
+    display: block;
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-block: 10px;
+    border-top-width: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.fa-images {
+    color: #0DB83D;
+}
+
+/* Css para los post */
+.section-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-post {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 80%;
+    margin: 20px auto 80px 40px;
+    /* margin-top: 20px;
+    margin-left: 40px; */
+    padding: 20px 10px 20px 10px;
+    float: left;
+    border: 1px solid rgba(140, 114, 114, 1);
+    box-shadow: 1px 1px 3px 3px rgb(140 114 114);
+    border-radius: 8px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    box-shadow: 1px 1px 2px 2px rgba(140, 114, 114, 0.3);
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+.photoUser {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.div-date {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.div-content-post{
+    margin-block: 15px;
+}
+
+.img-photo-post {
+    width: 100%;
+}
+
+/* Css para botón like */
+.content-btn-like {
+    padding-block: 5px;
+}
+
+.btn-like {
+    background: none;
+    border: none;
+    color: #FF0000;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.name-user-like {
+    background: none;
+    border: none;
+    color: #FF0000;
+    font-size: 15px;
+}
+
+/* Css para botones de edit y delete */
+.div-buttons {
+    display: flex;
+    justify-content: end;
+    padding-block: 10px;
+}
+
+.btn-edit, .btn-delete {
+    background: none;
+    border: none;
+    color: #FEA82F;
+    cursor: pointer;
+}

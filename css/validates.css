@@ -1,0 +1,13 @@
+/* css de error general */
+.msg-EP {
+    color: #FF2442;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    display: none;
+}
+
+.msg-EP-active {
+    display: block;
+}
